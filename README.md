@@ -35,23 +35,27 @@ lurkd register --only-minor npm.redis email
 # Follow command prompt to input email.
 ```
 
-### Package Providers
+### Providers
+
+To request a new provider please submit an issue.
 
 Provider | Command Name
 --- | ---
 NPM | npm
 Go | go
 Docker | docker
-Packagist (php) | packagist
-Cargo (rust) | cargo
+Packagist | packagist
+Cargo | cargo
 RubyGem | gem
 PyPi | pypi
 
-### Broadcasters
+### Broadcast Transmitters
+
+Transmitters allow you to connect an output for the notification.
 
 Service | Command Name | Description
 --- | --- | ---
 Email | email | Prompts for an email to send to
 Slack | slack | Prompts for an incoming webhook channel to post to
-GitHub | github | Work in progress.
-GitLab | gitlab | Work in progress.
+GitHub | github | Prompts for gitlab project authentication
+GitLab | gitlab | Prompts for github project authentication
