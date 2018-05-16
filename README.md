@@ -35,6 +35,14 @@ lurkd register --only-minor npm.redis email
 # Follow command prompt to input email.
 ```
 
+More examples:
+
+```bash
+lurkd register docker._/redis slack
+lurkd register docker.gitlab/gitlab-ce slack
+lurkd register pypi.gnureadline github
+```
+
 ### Providers
 
 To request a new provider please submit an issue.
@@ -42,7 +50,6 @@ To request a new provider please submit an issue.
 Provider | Command Name
 --- | ---
 NPM | npm
-Go | go
 Docker | docker
 Packagist | packagist
 Cargo | cargo
