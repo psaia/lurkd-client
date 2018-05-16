@@ -50,7 +50,7 @@ PyPi | pypi
 ### Broadcasters
 
 Service | Command Name | Description
---- | ---
+--- | --- | ---
 Email | email | Prompts for an email to send to
 Slack | slack | Prompts for an incoming webhook channel to post to
 GitHub | github | Work in progress.
